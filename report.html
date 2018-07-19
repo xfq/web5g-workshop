@@ -24,19 +24,19 @@
       <nav class="menu" id="menu">
         <ul>
           <li>
-            <a  class="active-tab">Report</a>
+            <a  class="active-tab">报告</a>
           </li>
           <li>
-            <a href="schedule.html">Agenda</a>
+            <a href="schedule.html">议程</a>
           </li>
           <li>
-            <a href="participants.html">Participants</a>
+            <a href="participants.html">与会成员</a>
           </li>
           <li>
-            <a href="papers.html">Position Statements</a>
+            <a href="papers.html">立场声明</a>
           </li>
           <li>
-            <a href="cfp.html">Call for Participation</a>
+            <a href="cfp.html">注册参会</a>
           </li>
         </ul>
       </nav>
@@ -57,34 +57,34 @@
       <p>与会者在为期两天的时间里，回顾了应用层的创新与功能可以为5G网络带来的机遇。 </p>
       <p>研讨会最后提议成立一个特别任务组（task force），以探索5G与Web社区如何凝聚在一起高效地开展工作。</p>
       <p>特别值得一提的是，与会者对于发展令人信服的业务与技术因素和目标达成了广泛共识，鼓励和推动W3C、5G标准组织（例如3GPP）、浏览器供应商、开发人员、设备供应商和网络运营商之间的密切合作，旨在创造一个有利于所有利益相关方都支持的技术开发和部署环境。</p>
-<h2>引言</h2>
+
+      <h2>引言</h2>
       <p>第五代网络（5G）技术旨在为用户提供更高带宽、更低延迟、覆盖更密集、以及更多使用率的服务和控制。实现这一目标所需的投入，在很多方面都要依赖于Web技术和软件的功能。特别是在终端用户（消费者和商业用户）可以切实享受到这些技术所带来的益处之前，应用和服务开发者要先接触并采纳它们。</p>
       <p>本次的Web5G研讨会，旨在开启新的网络技术部署和新应用领域发展所涉及的各利益相关方之间的对话。</p>
-<h2>5G赋能应用</h2>
-<p>正如 <a href="https://www.w3.org/2018/Talks/web5g/dan-web5g.pptx">Dan Warren (Samsung) 所说</a>, 5G网络的要求是在分析B2B使用案例中新需求的基础上，由下一代移动网络联盟（Next Generation Mobile Networks Alliance）所定义的。</p>
 
+      <h2>5G赋能应用</h2>
+<p>正如 <a href="https://www.w3.org/2018/Talks/web5g/dan-web5g.pptx">Dan Warren (Samsung) 所说</a>, 5G网络的要求是在分析B2B使用案例中新需求的基础上，由下一代移动网络联盟（Next Generation Mobile Networks Alliance）所定义的。</p>
 
       <p>这些要求预计将以以下方式得到实现:</p>
       <ul>
         <li>增强频谱效率提供更大的吞吐量,</li>
         <li>包含更多的天线及其信号关联,</li>
-        <li>Increased flexibility brought by the lower reliance on custom hardware (softwarization) and the scalability of deploying new software ("cloudification") in the operation of networks.</li>
-        <li>The actual implementation and deployment of these improvements are expected to appear progressively over multiple years, and in parallel with the continued operations of older generation networks for the foreseeable future. The actual capabilities of the networks will also vary depending on location - some of the frequencies with the higher throughput are for instance known to behave badly indoors, or through leafage.</li>
+        <li>由于对自定义硬件（软件化）依赖的减少以及在网络操作中部署新软件（“云化”）的可扩展性，从而增加了灵活性。</li>
+        <li>这些改进的实际实施和部署将在多年后逐步显现，与此同时，在可预见的将来旧一代网络将继续运行。网络的实际功能也会因位置而异，例如，一些更高的频率被认为在室内表现得不够好。</li>
       </ul>
+      
+<p>以下两方面将驱动对部署这些功能所需的投入：一方面，消费者对更高带宽的需求不断增长（特别是提高质量的视频、以及其他需要带宽的应用程序，例如虚拟现实等），另一方面，移动运营商希望藉由B2B用例（网络作为一种服务、物联网、工业自动化、虚拟和增强现实的专业使用、电子健康等）打开新的市场机遇。</p>
+      
+<p>因此，后者的关键在于移动运营商是否有能力公开这些新的网络功能，从而使它们易于使用并且适用于各类服务开发者。</p>
+      
+<p>对新的5G架构进行标准化的<a href="http://www.3gpp.org/">3GPP</a>, 正在为REST APIs开发一个框架，当与5G公开的服务进行交互时，开发人员将集成这些APIs（所以被称为<a href="http://www.3gpp.org/news-events/3gpp-news/1854-common_api">Northbound API Framework</a>）。ETSI已经开始定义<a href="http://www.etsi.org/news-events/news/1204-2017-07-news-etsi-multi-access-edge-computing-group-releases-a-first-package-of-apis">APIs来揭示多接入边缘计算的功能（Multi-Access Edge Computing，简称MEC）。</a></p>
 
+<p>许多参与者唤起了先前在电信行业建设和揭示基于网络的功能所带来的各种努力，(<a href="http://www.omtp.org/">OMTP</a>, <a href="http://www.wholesaleappcommunity.com/">WAC</a>, <a href="https://en.wikipedia.org/wiki/OneAPI">OneAPI</a>, <a href="https://en.wikipedia.org/wiki/Parlay_Group">Parlay</a>)，而由于开发人员难以跨运营商统一访问这些特性，以及跨Web和电信领域部署API的不同速度和文化，导致很多尝试都很难被广泛采用。</p>
 
-<p>The investments needed for the deployment of these capabilities will be driven on the one hand by the seemingly unlimited appetite of consumers for more bandwidth (driven in particular by videos of increasing quality, and other bandwidth-hungry applications such as virtual reality), and on the other hand by B2B use cases (network as a service, IoT, industry automation, professional usage of virtual and augmented reality, e-health) which mobile operators hope will open new markets opportunities.</p>
-<p>A key to the latter relies thus on the ability of mobile operators to expose these new network capabilities to make them easily usable and adaptable to a wide variety of service developers.</p>
-<p><a href="http://www.3gpp.org/">3GPP</a>, where the new 5G architecture is being standardized, is developing a framework for REST APIs that developers are expected to integrate when interacting with 5G-exposed services (so called <a href="http://www.3gpp.org/news-events/3gpp-news/1854-common_api">Northbound API Framework</a>). ETSI has already started defining <a href="http://www.etsi.org/news-events/news/1204-2017-07-news-etsi-multi-access-edge-computing-group-releases-a-first-package-of-apis">APIs to expose the capabilities of Multi-Access Edge Computing (MEC)</a>.</p>
-
-
-<p>A number of participants evoked the various previous attempts made in the telecommunication industry at building and exposing network-based capabilities (<a href="http://www.omtp.org/">OMTP</a>, <a href="http://www.wholesaleappcommunity.com/">WAC</a>, <a href="https://en.wikipedia.org/wiki/OneAPI">OneAPI</a>, <a href="https://en.wikipedia.org/wiki/Parlay_Group">Parlay</a>), many of which struggled to gain wide adoption due to the combination of the difficulty for developers to gain uniform access to these features across operators as well as to the different pace and culture of API deployments across the Web and telco worlds.</p>
-
-
-<p>Workshop participants thus noted that the aforementioned new efforts would benefit from more direct participation and input from the application layer, and identified this as a task that W3C could help with. This should involve not only technical considerations (API design, integration points in the platform), but also and primarily business considerations that would enable all stakeholders to find common interest in exposing these capabilities.</p>
+<p>研讨会与会者因此指出，上述的新努力将得益于更直接的参与和来自应用层的输入，与会者将此视为W3C可以提供助力的一项任务。 这不仅涉及技术因素（API设计，平台中的集成点），而且还涉及主要的业务考量，这些考虑因素能够使所有利益相关者在揭示这些功能时找到共同点。</p>
+     
 <h2>Experimenting with new Web/network integration in private networks</h2>
 <p>A salient feature of the 5G architecture is the ability  to seamlessly create network slices which can be approximated as on-demand virtual private networks (VPN) with well-defined characteristics in terms of e.g. bandwidth or latency, including over the radio network interface.</p>
-
 
 <p>These network slices are expected to play a key role in how certain applications would gain access to some of the most advanced performance settings of 5G (e.g. ultra-low latency).</p>
 <p>There remain a number of unknowns about the deployment and dimensioning of these slices: when and how will they be made available? how many slices will a given network support? How many profile of slices?</p>
