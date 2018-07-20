@@ -75,7 +75,7 @@
       
 <p>以下两方面将驱动对部署这些功能所需的投入：一方面，消费者对更高带宽的需求不断增长（特别是提高质量的视频、以及其他需要带宽的应用程序，例如虚拟现实等），另一方面，移动运营商希望藉由B2B用例（网络作为一种服务、物联网、工业自动化、虚拟和增强现实的专业使用、电子健康等）打开新的市场机遇。</p>
       
-<p>因此，后者的关键在于移动运营商是否有能力公开这些新的网络功能，从而使它们易于使用并且适用于各类服务开发者。</p>
+<p>因此，后者的关键在于移动运营商是否有能力揭示这些新的网络功能，从而使它们易于使用并且适用于各类服务开发者。</p>
       
 <p>对新的5G架构进行标准化的<a href="http://www.3gpp.org/">3GPP</a>, 正在为REST APIs开发一个框架，当与5G公开的服务进行交互时，开发人员将集成这些APIs（所以被称为<a href="http://www.3gpp.org/news-events/3gpp-news/1854-common_api">Northbound API Framework</a>）。ETSI已经开始定义<a href="http://www.etsi.org/news-events/news/1204-2017-07-news-etsi-multi-access-edge-computing-group-releases-a-first-package-of-apis">APIs来揭示多接入边缘计算的功能（Multi-Access Edge Computing，简称MEC）。</a></p>
 
@@ -83,18 +83,18 @@
 
 <p>研讨会与会者因此指出，上述的新努力将得益于更直接的参与和来自应用层的输入，与会者将此视为W3C可以提供助力的一项任务。 这不仅涉及技术因素（API设计，平台中的集成点），而且还涉及主要的业务考量，这些考虑因素能够使所有利益相关者在揭示这些功能时找到共同点。</p>
      
-<h2>Experimenting with new Web/network integration in private networks</h2>
-<p>A salient feature of the 5G architecture is the ability  to seamlessly create network slices which can be approximated as on-demand virtual private networks (VPN) with well-defined characteristics in terms of e.g. bandwidth or latency, including over the radio network interface.</p>
+<h2>在专用网络中尝试新的Web/网络集成</h2>
+<p>5G架构的一个显著特性是能够无缝地创建网络分片（network slices），每个网络分片之间是隔离的，这与虚拟专用网络（VPN）的功能是类似的，它能够提供定制的网络特性，例如带宽、延迟、容量等，包括通过无线网络接口。</p>
 
-<p>These network slices are expected to play a key role in how certain applications would gain access to some of the most advanced performance settings of 5G (e.g. ultra-low latency).</p>
-<p>There remain a number of unknowns about the deployment and dimensioning of these slices: when and how will they be made available? how many slices will a given network support? How many profile of slices?</p>
+<p>这些网络分片有望在应用程序如何访问5G最先进的性能设置（例如，超低延迟）方面发挥关键作用。</p>
+<p>关于这些分片的部署和规模上仍存在诸多未知：何时可用，如何使用，一个既定网络将支持多少分片，分片有多少剖面等？</p>
 
+<p>这些分片可以被用于部署垂直集成的应用程序，其中网络层被认为是某一特定服务不可分割的组成部分，因而将依赖于它的性能特征及其公开功能（例如，用于配置或访问边缘计算）。因此，它们可能是试验集成应用程序和网络层新方法的沃土，与专用企业网络实现特定优化的方式相同（例如WebRTC中的DSCP标记）。</p>
 
-<p>Some of the possible ways these slices would be used would be to deploy vertically-integrated applications, where the network layer is considered to be an integral part of a specific service, and would thus be relied on for its performance characteristics and its exposed capabilities (e.g. for configuration or access to edge computing). As a result, they might be fertile ground for experimenting with new approaches to integrating application and network layers, the same way private enterprise networks have enabled specific optimizations (e.g. DSCP markings in WebRTC).</p>
-
-
-<p>Workshop participants thus encouraged W3C to explore how and when features primarily or initially targeted at private networks (by opposition to the "public internet") might be considered for experimentations in Web browsers.</p>
-<h2>Transport layer innovation</h2>
+<p>研讨会与会者鼓励W3C进一步探索如何以及何时在Web浏览器中对这些面向专用网络（与“公共网络”相反）的特征进行试验。</p>
+      
+      
+<h2>传输层的创新</h2>
 <p>In addition to the improvements brought by the new radio capabilities of 5G and its associated service-oriented architecture, a number of changes at the transport layer were reviewed at the workshop.</p>
 
 
